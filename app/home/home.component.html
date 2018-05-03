@@ -1,0 +1,22 @@
+<ActionBar class="action-bar">
+    <Label class="action-bar-title" text="Aparcao"></Label>
+</ActionBar>
+
+<GridLayout columns="*" rows="*, auto">
+    <Mapbox
+        row="0" col="0"
+        accessToken=""
+        mapStyle="traffic_day" 
+        latitude="37.3891"
+        longitude="-5.9845"
+        hideCompass="false" 
+        zoomLevel="10"
+        showUserLocation="true"
+        disableZoom="false"
+        disableRotation="false" 
+        disableScroll="false"
+        disableTilt="false"
+        (mapReady)="onMapReady($event)">
+    </Mapbox>
+    <Button row="1" col="0" text="Dejar hueco libre" (tap)="savePoint()"></Button>
+</GridLayout>
