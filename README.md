@@ -6,4 +6,4 @@ Construida con Angular, Nativescript, Mapbox y Google Firebase.
 Hay que añadir el archivo firebase.nativescript.json para firebase.
 Y el token de mapbox en el componente <Mapbox></Mapbox> dentro de home.component.html
 
-[Demo](https://streamable.com/f11sl)
+![](Aparcao.gif)
